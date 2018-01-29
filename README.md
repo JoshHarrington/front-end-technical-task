@@ -23,10 +23,13 @@ Feel free to use whatever technologies you like.
 Don't worry too much about styling.
 
 >GET https://jsonplaceholder.typicode.com/posts  
+
 Solution - [Codepen Link](https://codepen.io/joshharrington/pen/paoPVK)
 
 >GET https://jsonplaceholder.typicode.com/posts/{POSTID}  
+
 Solution - [Codepen Link](https://codepen.io/joshharrington/pen/rJNGqP)
 
 >GET https://jsonplaceholder.typicode.com/posts/{POSTID}/comments  
+
 Solution - [Codepen Link](https://codepen.io/joshharrington/pen/qxBjjq)
