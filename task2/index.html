@@ -8,33 +8,38 @@
       * {
         box-sizing: border-box;
       }
-
       h1 {
         font-size: 3.5em;
       }
-
       .wrapper {
         width: 800px;
+        max-width: 100%;
         margin: 20px auto;
       }
-
       .listing {
         overflow: hidden;
         margin: 0 0 25px 0;
       }
-
       .story {
         float: left;
         width: 250px;
         margin-right: 25px;
         position: relative;
         font-size: 80%;
+        margin-bottom: 25px;
+      }
+      .story--main ~ .story {
+        width: 32%;  
+      }
+
+      .story--main ~ .story:not(:nth-child(3n+1)) {
+        margin: 0 2% 25px 0;
       }
 
       .story img {
         display: block;
+        width: 100%;
       }
-
       .story__intro {
         position: absolute;
         bottom: 0;
@@ -44,15 +49,12 @@
         padding: 20px;
         color: white;
       }
-
       .story__intro h2 {
         margin: 0 0 10px 0;
       }
-
       .story__intro p {
         margin: 0;
       }
-
       .story--main {
         position: relative;
         margin: 0 0 25px 0;
@@ -61,9 +63,39 @@
       .story--main .story__intro h2 {
         font-size: 2.5em;
       }
-
       .story--last {
         margin-right: 0;
+      }
+
+      @media (max-width: 850px) and (min-width: 501px) {
+        .story--main ~ .story:nth-child(2n+1) {
+          margin-left: 2%;
+          margin-right: 0;
+        }
+        .story--main ~ .story:nth-child(2n) {
+          margin-right: 2%;
+        }
+      }
+
+      @media (max-width: 850px) {
+        .story--main ~ .story {
+          width: 48%;
+          margin: 0 0 25px 0;
+        }
+      }
+
+      @media (max-width: 500px) {
+        .story--main .story__intro {
+          position: relative;
+        }
+        .story--main ~ .story {
+          width: 100%;
+        }
+      }
+      @media (max-width: 350px) {
+        .story__intro {
+          position: relative;
+        }
       }
     </style>
   </head>
