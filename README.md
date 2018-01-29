@@ -14,7 +14,7 @@ Bonus points for transitions / hover state.
 
 Make the included layout responsive, while maintaining the heirarchy of importance.
 
-Solution - [Codepen Link](https://codepen.io/joshharrington/pen/YezNvY)
+**Solution** - [Codepen Link](https://codepen.io/joshharrington/pen/YezNvY)
 
 ## Task 3
 
@@ -27,14 +27,14 @@ Don't worry too much about styling.
 ### Task 3a
 >GET https://jsonplaceholder.typicode.com/posts  
 
-Solution - [Codepen Link](https://codepen.io/joshharrington/pen/paoPVK)
+**Solution** - [Codepen Link](https://codepen.io/joshharrington/pen/paoPVK)
 
 ### Task 3b
 >GET https://jsonplaceholder.typicode.com/posts/{POSTID}  
 
-Solution - [Codepen Link](https://codepen.io/joshharrington/pen/rJNGqP)
+**Solution** - [Codepen Link](https://codepen.io/joshharrington/pen/rJNGqP)
 
 ### Task 3c
 >GET https://jsonplaceholder.typicode.com/posts/{POSTID}/comments  
 
-Solution - [Codepen Link](https://codepen.io/joshharrington/pen/qxBjjq)
+**Solution** - [Codepen Link](https://codepen.io/joshharrington/pen/qxBjjq)
