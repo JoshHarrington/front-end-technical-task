@@ -14,6 +14,8 @@ Bonus points for transitions / hover state.
 
 Make the included layout responsive, while maintaining the heirarchy of importance.
 
+Solution - [Codepen Link](https://codepen.io/joshharrington/pen/YezNvY)
+
 ## Task 3
 
 Write a small JavaScript application that consumes the following endpoints and displays the information in an organized way.
