@@ -3,6 +3,56 @@
   <head>
     <meta charset="utf-8">
     <title>Style The Button</title>
+    <style>
+      body {
+        text-align: center;
+      }
+      .btn {
+        text-align: center;
+        display: inline-block;
+        position: relative;
+        font-size: 1.2em;
+        background-color: black;
+        color: white;
+        border-radius: 1em;
+        padding: 1em 3em;
+        box-sizing: border-box;
+        margin: 2em 0 0 2em;
+        text-decoration: none;
+        font-family: futura;
+        text-transform: uppercase;
+        border: 2px solid white;
+        box-shadow: 0px 0px 0px 4px black,
+          5px 5px 18px -4px rgba(0,0,0,0.51);
+      }
+
+      .btn::before {
+        content: " ";
+        height: .5em;
+        width: .5em;
+        background-color: red;
+        display: block;
+        position: absolute;
+        border-radius: 50%;
+        top: 1.2em;
+        left: 1.6em;
+        box-shadow: .5em 0 0 0 red,
+          6em 0 0 0 red,
+          6.5em 0 0 0 red;
+      }
+
+      .btn::after {
+        content: " ";
+        position: absolute;
+        width: .52em;
+        height: .52em;
+        top: 1.45em;
+        left: 1.87em;
+        background-color: red;
+        transform: rotate(45deg);
+        box-shadow: 4.23em -4.23em 0 0 red;
+      }
+    </style>
   </head>
 
   <body>
